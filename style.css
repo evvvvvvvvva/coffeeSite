@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4a2c2a;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f9f2ed;
+    background-image: url(img/coffee_image.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.welcome-text {
+    max-width: 50%;
+    color: #f9f2ed;
+    font-family: 'Playfair Display', serif;
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem;
+    
+}
+
+.welcome-text p {
+    margin: 15px 0;
+}
+
+.welcome-text button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background: #4a2c2a;
+    color: white;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    border-radius: 30px;
+}
+
+.welcome-text button:hover {
+    background: #6b3e3b;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 10px;
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2,
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4a2c2a;
+    font-family: 'Playfair Display', serif;
+}
+
+.about p {
+    margin-top: 20px;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about div{
+    margin:0 50px;
+    width: 40%;
+}
+
+.about img{
+    height: min-content;
+}
+
+.services {
+    background: #f9f2ed;
+    border-bottom: #ffffff solid 5px;
+}
+
+.services .service {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.services .service img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.services .service h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #4a2c2a;
+    font-family: 'Playfair Display', serif;
+}
+
+.order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.order-text {
+    max-width: 50%;
+}
+
+.order-text h2 {
+    font-size: 2rem;
+    color: #4a2c2a;
+    font-family: 'Playfair Display', serif;
+}
+
+.order-text p {
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+.order-text button {
+    padding: 10px 20px;
+    border: none;
+    background: #4a2c2a;
+    color: white;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    border-radius: 30px;
+}
+
+.order-text button:hover {
+    background: #6b3e3b;
+}
+
+.order img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.testimonials {
+    padding: 50px;
+    background: #f9f2ed;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #4a2c2a;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial p {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonials .testimonial .author {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #4a2c2a;
+}
+
+.subscription {
+    padding: 50px;
+    text-align: center;
+    background: #4a2c2a;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.subscription input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscription button {
+    padding: 10px 20px;
+    border: none;
+    background: #6b3e3b;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+.subscription button:hover {
+    background: #8c514e;
+}
+
+.subscription-contacts{
+    margin-top: 10px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #4a2c2a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
